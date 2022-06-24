@@ -1,0 +1,48 @@
+h2:hover {
+    color: red;
+}
+
+h2 [class=subtitle] {
+    color: blue;
+}
+
+.title {
+    color: brown;
+}
+
+.p {
+    color: gray;
+}
+
+.subtitle {
+    color: black;
+}
+
+#contact-us {
+    color: blueviolet;
+}
+
+li:last-child {
+    color: blueviolet;
+}
+
+
+/* #google-link:link {
+    color: blue;
+}
+
+#google-link:visited {
+    color: red;
+} */
+
+a {
+    color: red;
+}
+
+img[src^="../image"] {
+    border: 10px solid black;
+}
+
+h2[class~=article-subtitle] {
+    background: green;
+}
