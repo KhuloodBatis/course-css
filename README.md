@@ -11,7 +11,7 @@
 
 </head>
 
-<body background = " url("https://cdn.mos.cms.futurecdn.net/4wMKQMfTJJNehZdbbqRLbE.jpg");">
+<body>
 
     <h1 id="title">
         My Website For CSS
@@ -57,3 +57,5 @@
     </form>
 
 </body>
+
+</html>
