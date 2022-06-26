@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
-
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@300;400&family=League+Gothic&display=swap" rel="stylesheet">
 
     <title>
         My Website
@@ -17,7 +17,7 @@
         My Website For CSS
     </h1>
 
-    <img src="../image/css.jpg" width="750">
+    <img class="css-image" src="../image/css.jpg" width="750">
 
     <p class="para-text"> CSS is the language we use to style a Web page. What is CSS? CSS stands for Cascading Style Sheets CSS describes how HTML elements are to be displayed on screen, paper, or in other media CSS saves a lot of work. It can control the layout of multiple
         web pages all at once External stylesheets are stored in CSS files
@@ -27,6 +27,7 @@
     <h2 class="subtitle">
         Features
     </h2>
+
     <ul>
         <li class="list-item">koool</li>
         <li>koool</li>
@@ -36,11 +37,14 @@
         </ol>
         <li>koool </li>
     </ul>
+    <h2 id="gold-me">
+        Gold Me
+    </h2>
 
     <a href=" https://www.google.com " class="link ">Click here </a>
 
     <p class="para-text ">Use the Menu We recommend reading this tutorial, in the sequence listed in the menu. If you have a large screen, the menu will always be present on the left. If you have a small screen, open the menu by clicking the top menu sign ☰. CSS Templates
-        We have created some responsive W3.CSS templates for you to use. You are free to modify, save, share, and use them in all your projects. Free CSS Templates!</p>
+        We have created some <span class="italics">responsive W3.CSS templates for you to use</span> . You are free to modify, save, share, and use them in all your projects. Free CSS Templates!</p>
     <form>
         <div id="service-image"></div>
         <h2 class="subtitle">
@@ -52,9 +56,38 @@
         <br>
         <textarea></textarea>
         <br>
-        <button>Submit</button>
-        <h2 class="subtitle " id="koolfrz " style="color:pink; ">koolfzr</h2>
+        <button class="submit-button">Submit</button>
+        <h2 class="subtitle " id="koolfrz " style="color:rgb(203, 232, 19); ">koolfzr</h2>
+
     </form>
+    <div class="container">
+        <div class="container-item" style="order:4 ;  flex: 1 1 100px; align-self:center">A</div>
+        <div class=" container-item " style="order:3 ;  flex:1 1 100px; align-self:start">B</div>
+        <div class="container-item " style="order:5 ;  flex: 5 1 100px ; align-self:flex-start">C</div>
+        <div class="container-item " style="order:1 ;  flex: 1 0 100px; align-self:center">D</div>
+        <div class="container-item " style="order:2  ;  flex: 1 1 100px; align-self:flex-end ">E</div>
+        <!-- <div class="container-item style="" ">F</div>
+        <div class="container-item style="" ">G</div>
+        <div class="container-item style="" ">H</div>
+        <div class="container-item style="" ">I</div>
+        <div class="container-item style="" ">J</div> -->
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item" style="
+        background: rgb(255, 150, 150);
+         grid-area: 2 / 1/span 2/span 3;">1</div>
+        <div class="grid-item" style="
+ background: rgb(170, 255, 140);">2</div>
+        <div class="grid-item" style="
+  background: rgb(222, 132, 255);">3</div>
+        <div class="grid-item" style="
+   background: rgb(255, 207, 119);">4</div>
+        <div class="grid-item" style="
+    background: rgb(140, 210,255);">5</div>
+        <div class="grid-item" style="
+  background: rgb(107, 244, 226);">6</div>
+    </div>
 
 </body>
 
